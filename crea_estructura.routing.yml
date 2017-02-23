@@ -1,0 +1,7 @@
+crea_estructura.content:
+  path: '/crea_estructura'
+  defaults:
+    _controller: '\Drupal\crea_estructura\Controller\CreaEstructuraController::content'
+    _title: 'Crea estructura'
+  requirements:
+    _permission: 'administer site configuration'

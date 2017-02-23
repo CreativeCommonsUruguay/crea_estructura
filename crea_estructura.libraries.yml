@@ -1,0 +1,5 @@
+estilo_formularios:
+  version: 1.x
+  css:
+    theme:
+      css/estilo-formularios.css: {}

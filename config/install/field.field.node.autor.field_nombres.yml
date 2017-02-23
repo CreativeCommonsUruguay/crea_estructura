@@ -1,0 +1,18 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nombres
+    - node.type.autor
+id: node.autor.field_nombres
+field_name: field_nombres
+entity_type: node
+bundle: autor
+label: Nombres
+description: 'El nombre común del autor.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

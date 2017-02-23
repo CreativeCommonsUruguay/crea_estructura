@@ -1,0 +1,19 @@
+#field.field.taxonomy_term.estatus_de_derechos.field_descripcion_h.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_descripcion_h
+    - taxonomy.vocabulary.estatus_de_derechos
+id: taxonomy_term.estatus_de_derechos.field_descripcion_h
+field_name: field_descripcion_h
+entity_type: taxonomy_term
+bundle: estatus_de_derechos
+label: 'Descripción H'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

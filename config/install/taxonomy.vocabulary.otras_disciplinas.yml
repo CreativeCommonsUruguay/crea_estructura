@@ -1,0 +1,12 @@
+#taxonomy.vocabulary.otras_disciplinas.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - crea_estructura
+name: 'Otras disciplinas'
+vid: otras_disciplinas
+description: ''
+hierarchy: 0
+weight: 0

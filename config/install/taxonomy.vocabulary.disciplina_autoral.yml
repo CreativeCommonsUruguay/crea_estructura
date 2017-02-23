@@ -1,0 +1,12 @@
+#taxonomy.vocabulary.disciplina_autoral.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - crea_estructura
+name: 'Disciplina autoral'
+vid: disciplina_autoral
+description: null
+hierarchy: 0
+weight: 0

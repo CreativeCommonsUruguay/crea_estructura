@@ -1,0 +1,55 @@
+#core.entity_form_display.taxonomy_term.estatus_de_derechos.default.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.estatus_de_derechos.field_descripcion_h
+    - field.field.taxonomy_term.estatus_de_derechos.field_descripcion_m
+    - taxonomy.vocabulary.estatus_de_derechos
+  module:
+    - path
+    - text
+id: taxonomy_term.estatus_de_derechos.default
+targetEntityType: taxonomy_term
+bundle: estatus_de_derechos
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_descripcion_h:
+    weight: 31
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_descripcion_m:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

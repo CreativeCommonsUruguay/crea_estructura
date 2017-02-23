@@ -1,0 +1,19 @@
+#field.field.node.autor.field_seudonimos.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seudonimos
+    - node.type.autor
+id: node.autor.field_seudonimos
+field_name: field_seudonimos
+entity_type: node
+bundle: autor
+label: Seudónimos
+description: 'Distintos seudónimos utilizados por el autor, separados por coma'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

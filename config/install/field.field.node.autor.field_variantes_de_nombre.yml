@@ -1,0 +1,19 @@
+#field.field.node.autor.field_variantes_de_nombre.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_variantes_de_nombre
+    - node.type.autor
+id: node.autor.field_variantes_de_nombre
+field_name: field_variantes_de_nombre
+entity_type: node
+bundle: autor
+label: 'Variantes de nombre'
+description: 'Distintos nombres por los cuales puede conocerse al autor, separados por coma'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

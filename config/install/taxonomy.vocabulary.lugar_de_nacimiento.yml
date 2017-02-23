@@ -1,0 +1,12 @@
+#taxonomy.vocabulary.lugar_de_nacimiento.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - crea_estructura
+name: 'Lugar de nacimiento'
+vid: lugar_de_nacimiento
+description: null
+hierarchy: 0
+weight: 0

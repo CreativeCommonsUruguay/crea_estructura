@@ -1,0 +1,12 @@
+#taxonomy.vocabulary.fuentes_de_autores.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - crea_estructura
+name: 'Fuentes de autores'
+vid: fuentes_de_autores
+description: null
+hierarchy: 0
+weight: 0

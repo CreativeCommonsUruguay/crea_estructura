@@ -1,0 +1,18 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_titulo
+    - taxonomy.vocabulary.fuentes_de_autores
+id: taxonomy_term.fuentes_de_autores.field_titulo
+field_name: field_titulo
+entity_type: taxonomy_term
+bundle: fuentes_de_autores
+label: field_titulo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

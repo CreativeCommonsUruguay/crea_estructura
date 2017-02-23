@@ -1,0 +1,217 @@
+#core.entity_form_display.node.autor.default.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.autor.field_ano_de_muerte
+    - field.field.node.autor.field_ano_de_nacimiento
+    - field.field.node.autor.field_apellidos
+    - field.field.node.autor.field_dia_de_muerte
+    - field.field.node.autor.field_dia_de_nacimiento
+    - field.field.node.autor.field_disciplinaautoral
+    - field.field.node.autor.field_enlaces
+    - field.field.node.autor.field_fuentes
+    - field.field.node.autor.field_lugardenacimiento
+    - field.field.node.autor.field_mes_de_muerte
+    - field.field.node.autor.field_mes_de_nacimiento
+    - field.field.node.autor.field_nombres
+    - field.field.node.autor.field_notas
+    - field.field.node.autor.field_otrasdisciplinas
+    - field.field.node.autor.field_seudonimos
+    - field.field.node.autor.field_sexo
+    - field.field.node.autor.field_variantes_de_nombre
+    - node.type.autor
+  module:
+    - field_group
+    - link
+    - path
+third_party_settings:
+  field_group:
+    group_fecha_de_nacimiento:
+      children:
+        - field_dia_de_nacimiento
+        - field_mes_de_nacimiento
+        - field_ano_de_nacimiento
+      parent_name: ''
+      weight: 12
+      format_type: fieldset
+      format_settings:
+        label: 'Fecha de nacimiento'
+        description: 'Fecha de nacimiento del autor. Permite fechas totales o parciales.'
+        id: ''
+        classes: ''
+        required_fields: false
+      label: 'Fecha de nacimiento'
+    group_fecha_de_muerte:
+      children:
+        - field_dia_de_muerte
+        - field_mes_de_muerte
+        - field_ano_de_muerte
+      parent_name: ''
+      weight: 13
+      format_type: fieldset
+      format_settings:
+        label: 'Fecha de muerte'
+        description: ''
+        id: ''
+        classes: ''
+        required_fields: false
+      label: 'Fecha de muerte'
+_core:
+  default_config_hash: nD2KGEzw17q5mIIP8e4VVjANeGkroDZh9dQkPmNf8Cw
+id: node.autor.default
+targetEntityType: node
+bundle: autor
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  field_ano_de_muerte:
+    weight: 105
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_ano_de_nacimiento:
+    weight: 104
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_apellidos:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_dia_de_muerte:
+    weight: 103
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_dia_de_nacimiento:
+    weight: 102
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_disciplinaautoral:
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+  field_enlaces:
+    weight: 17
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_fuentes:
+    weight: 19
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_lugardenacimiento:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_mes_de_muerte:
+    weight: 104
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_mes_de_nacimiento:
+    weight: 103
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_nombres:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_notas:
+    weight: 18
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_otrasdisciplinas:
+    weight: 16
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+  field_seudonimos:
+    weight: 11
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_sexo:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_variantes_de_nombre:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  langcode:
+    type: language_select
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+  path:
+    type: path
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

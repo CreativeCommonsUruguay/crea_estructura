@@ -1,0 +1,16 @@
+#user.role.creador_contenidos.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - crea_estructura
+id: creador_contenidos
+label: 'Creador contenidos'
+weight: -9
+is_admin: null
+permissions:
+  - 'administer nodes'
+  - 'administer taxonomy'
+  - 'access toolbar'
+  - 'access user profiles'

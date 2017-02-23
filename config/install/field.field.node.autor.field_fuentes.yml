@@ -1,0 +1,28 @@
+#field.field.node.autor.field_fuentes.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fuentes
+    - node.type.autor
+    - taxonomy.vocabulary.fuentes_de_autores
+id: node.autor.field_fuentes
+field_name: field_fuentes
+entity_type: node
+bundle: autor
+label: Fuentes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fuentes_de_autores: fuentes_de_autores
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

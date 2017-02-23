@@ -1,0 +1,18 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_apellidos
+    - node.type.autor
+id: node.autor.field_apellidos
+field_name: field_apellidos
+entity_type: node
+bundle: autor
+label: Apellidos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,13 @@
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - crea_estructura
+name: 'Autor'
+type: autor
+description: 'Ficha de <em>autores</em> con la información necesaria para conocer su estatus de derecho de autor, su lugar de nacimiento, disciplina autoral, etc.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

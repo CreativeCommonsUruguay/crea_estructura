@@ -1,0 +1,13 @@
+#taxonomy.vocabulary.estatus_de_derechos.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - crea_estructura
+dependencies: {  }
+name: 'Estatus de derechos'
+vid: estatus_de_derechos
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,19 @@
+<?php
+
+function crea_estructura_theme($existing, $type, $theme, $path) {
+
+  $arreglo['resultado'] = NULL;
+
+  return array(
+    'hola'  => array(
+      'variables' => $arreglo,
+    ),
+  );
+}
+
+function crea_estructura_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+  if (isset($form) && ($form_id == 'node_autor_edit_form')) {
+    $form['#attached']['library'][] = 'crea_estructura/estilo_formularios';
+  }
+}

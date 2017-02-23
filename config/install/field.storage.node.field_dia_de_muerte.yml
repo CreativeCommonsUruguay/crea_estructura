@@ -1,0 +1,23 @@
+#field.storage.node.field_dia_de_muerte.yml
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - crea_estructura
+id: node.field_dia_de_muerte
+field_name: field_dia_de_muerte
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,28 @@
+#field.field.node.autor.field_lugardenacimiento.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lugardenacimiento
+    - node.type.autor
+    - taxonomy.vocabulary.lugar_de_nacimiento
+id: node.autor.field_lugardenacimiento
+field_name: field_lugardenacimiento
+entity_type: node
+bundle: autor
+label: 'Lugar de nacimiento'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      lugar_de_nacimiento: lugar_de_nacimiento
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

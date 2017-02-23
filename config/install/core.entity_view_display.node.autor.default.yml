@@ -1,0 +1,177 @@
+#core.entity_view_display.node.autor.default.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.autor.field_ano_de_muerte
+    - field.field.node.autor.field_ano_de_nacimiento
+    - field.field.node.autor.field_apellidos
+    - field.field.node.autor.field_dia_de_muerte
+    - field.field.node.autor.field_dia_de_nacimiento
+    - field.field.node.autor.field_disciplinaautoral
+    - field.field.node.autor.field_enlaces
+    - field.field.node.autor.field_estatusderechos
+    - field.field.node.autor.field_fuentes
+    - field.field.node.autor.field_lugardenacimiento
+    - field.field.node.autor.field_mes_de_muerte
+    - field.field.node.autor.field_mes_de_nacimiento
+    - field.field.node.autor.field_nombres
+    - field.field.node.autor.field_notas
+    - field.field.node.autor.field_otrasdisciplinas
+    - field.field.node.autor.field_seudonimos
+    - field.field.node.autor.field_sexo
+    - field.field.node.autor.field_variantes_de_nombre
+    - node.type.autor
+  module:
+    - link
+    - user
+_core:
+  default_config_hash: VSysANARFFtb4IZdJY1DGzReRek3KCF2kFoZdzpsA7k
+id: node.autor.default
+targetEntityType: node
+bundle: autor
+mode: default
+content:
+  field_ano_de_muerte:
+    weight: 11
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_ano_de_nacimiento:
+    weight: 8
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_apellidos:
+    weight: 2
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_dia_de_muerte:
+    weight: 9
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_dia_de_nacimiento:
+    weight: 6
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_disciplinaautoral:
+    weight: 13
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_enlaces:
+    weight: 15
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_estatusderechos:
+    type: entity_reference_entity_view
+    weight: 18
+    label: above
+    settings:
+      link: false
+      view_mode: default
+    third_party_settings: {  }
+  field_fuentes:
+    weight: 17
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_lugardenacimiento:
+    weight: 12
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_mes_de_muerte:
+    weight: 10
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_mes_de_nacimiento:
+    weight: 7
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_nombres:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_notas:
+    weight: 16
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_otrasdisciplinas:
+    weight: 14
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_seudonimos:
+    weight: 5
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_sexo:
+    weight: 3
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_variantes_de_nombre:
+    weight: 4
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

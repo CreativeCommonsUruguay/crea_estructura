@@ -1,0 +1,8 @@
+name: Crea estructura
+description: Crea tipos de datos, vocabularios, roles y usuarios. Popula taxonomías y usuarios.
+package: AUTORES
+dependencies:
+  - field_group
+
+type: module
+core: 8.x

@@ -1,0 +1,28 @@
+#field.field.node.autor.field_otrasdisciplinas.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_otrasdisciplinas
+    - node.type.autor
+    - taxonomy.vocabulary.otras_disciplinas
+id: node.autor.field_otrasdisciplinas
+field_name: field_otrasdisciplinas
+entity_type: node
+bundle: autor
+label: 'Otras disciplinas'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      otras_disciplinas: otras_disciplinas
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

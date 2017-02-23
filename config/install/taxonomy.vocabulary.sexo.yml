@@ -1,0 +1,12 @@
+#taxonomy.vocabulary.sexo.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - crea_estructura
+name: Sexo
+vid: sexo
+description: null
+hierarchy: 0
+weight: 0

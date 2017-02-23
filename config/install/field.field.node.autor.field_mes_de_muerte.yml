@@ -1,0 +1,23 @@
+#field.field.node.autor.field_mes_de_muerte.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mes_de_muerte
+    - node.type.autor
+id: node.autor.field_mes_de_muerte
+field_name: field_mes_de_muerte
+entity_type: node
+bundle: autor
+label: 'Mes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 12
+  prefix: ''
+  suffix: ''
+field_type: integer
