@@ -1,0 +1,27 @@
+{
+    "name": "drupal/crear_estructura",
+    "description": "Crea tipos de datos, vocabularios, roles y usuarios. Popula taxonomías y usuarios",
+    "type": "drupal-module",
+    "homepage": "https://github.com/CreativeCommonsUruguay/crear_estructura",
+    "license": "GPL",
+    "authors": [
+      {
+          "name": "Rodrigo",
+          "email": "rbarbano@gmail.com",
+          "role": "Maintainer"
+      },
+      {
+          "name": "Marco",
+          "email": "marcoscalone@gmail.com",
+          "role": "Co-Maintainer"
+      }
+    ],
+    "support": {
+       "issues": "https://github.com/CreativeCommonsUruguay/crear_estructura/issues",
+       "source": "https://github.com/CreativeCommonsUruguay/crear_estructura"
+     },
+     "minimum-stability": "dev",
+     "require": {
+       "drupal/field_group": "*"
+     }
+}
