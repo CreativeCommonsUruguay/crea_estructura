@@ -1,7 +1,7 @@
 {
     "name": "drupal/crea_estructura",
     "description": "Crea tipos de datos, vocabularios, roles y usuarios. Popula taxonomías y usuarios",
-    "type": "drupal-module",
+    "type": "drupal-custom-module",
     "homepage": "https://github.com/CreativeCommonsUruguay/crea_estructura",
     "license": "GPL",
     "authors": [
