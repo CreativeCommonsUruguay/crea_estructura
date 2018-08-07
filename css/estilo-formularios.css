@@ -14,9 +14,8 @@
 }
 
 
-#edit-field-dia-de-nacimiento-wrapper, #edit-field-mes-de-nacimiento-wrapper, #edit-field-ano-de-nacimiento-wrapper, #edit-field-dia-de-muerte-wrapper, #edit-field-mes-de-muerte-wrapper, #edit-field-ano-de-muerte-wrapper {
+#edit-field-dia-de-nacimiento-wrapper, #edit-field-mes-de-nacimiento-wrapper, #edit-field-ano-de-nacimiento-wrapper, #edit-field-dia-de-muerte-wrapper, #edit-field-mes-de-muerte-wrapper, #edit-field-ano-de-muerte-wrapper, #edit-field-lugardenacimiento-wrapper, #edit-field-lugardemuerte-wrapper {
   float: left;
-  text-align: center;
 }
 
 .fieldset-wrapper .description{

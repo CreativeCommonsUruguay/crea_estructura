@@ -85,6 +85,7 @@ class CreaEstructuraController extends ControllerBase {
         $term = Term::create([
           'vid' => $key,
           'langcode' => 'es',
+          'tid' => $i+900,
           'name' => $nombre
         ]);
         $term->save();

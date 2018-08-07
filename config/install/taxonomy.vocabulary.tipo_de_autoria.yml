@@ -1,0 +1,11 @@
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - crea_estructura
+name: 'Tipo de Autoría'
+vid: tipo_de_autoria
+description: 'Tipos de autoria que puede tener un autor sobre una obra'
+hierarchy: 0
+weight: 0
